@@ -1,0 +1,44 @@
+{
+  "name": "silverorange-js-dev-test-web",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/node": "^10.17.17 || ^12.12.6",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.4",
+    "react-scripts": "^5.0.1",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^2.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}'",
+    "prettier": "prettier --config .prettierrc.json --list-different 'src/**/*.{scss,css,js,ts,jsx,tsx,svg}'",
+    "prettier-write": "prettier --config .prettierrc.json --write 'src/**/*.{scss,css,js,ts,jsx,tsx,svg}'"
+  }
+}

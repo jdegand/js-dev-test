@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts renders correctly 1`] = `
+<div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Leviathan Wakes
+    </h1>
+    <h2>
+      Terry McDonough
+    </h2>
+    <h3>
+      Tue Feb 02 2016 15:18:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Terry McDonough
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Critical Mass
+    </h1>
+    <h2>
+      Terry McDonough
+    </h2>
+    <h3>
+      Tue Feb 02 2016 15:17:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Terry McDonough
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Salvage
+    </h1>
+    <h2>
+      Bill Johnson
+    </h2>
+    <h3>
+      Tue Jan 26 2016 15:17:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Bill Johnson
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Windmills
+    </h1>
+    <h2>
+      Bill Johnson
+    </h2>
+    <h3>
+      Tue Jan 19 2016 15:17:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Bill Johnson
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Rock Bottom
+    </h1>
+    <h2>
+      Rob Lieberman
+    </h2>
+    <h3>
+      Tue Jan 12 2016 15:17:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Rob Lieberman
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Back to the Butcher
+    </h1>
+    <h2>
+      Rob Lieberman
+    </h2>
+    <h3>
+      Tue Jan 05 2016 16:19:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Rob Lieberman
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      CQB
+    </h1>
+    <h2>
+      Jeff Woolnough
+    </h2>
+    <h3>
+      Tue Dec 29 2015 17:37:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Jeff Woolnough
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Remember the Cant
+    </h1>
+    <h2>
+      Jeff Woolnough
+    </h2>
+    <h3>
+      Tue Dec 22 2015 16:27:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Jeff Woolnough
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      The Big Empty
+    </h1>
+    <h2>
+      Terry McDonough
+    </h2>
+    <h3>
+      Tue Dec 15 2015 17:17:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Terry McDonough
+    </button>
+  </div>
+  <div>
+    <h1
+      className="title-heading"
+      onClick={[Function]}
+    >
+      Dulcinea
+    </h1>
+    <h2>
+      Terry McDonough
+    </h2>
+    <h3>
+      Mon Dec 14 2015 16:09:00 GMT-0500 (Eastern Standard Time)
+    </h3>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Find More By 
+      Terry McDonough
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Title renders correctly 1`] = `
+<h1
+  className="title-heading"
+  onClick={[Function]}
+>
+  America
+</h1>
+`;
