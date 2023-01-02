@@ -97,7 +97,7 @@ Screenshots
 
 ![](js-dev-test-1.png)
 
-![](js-dev-test-2.png)
+![](js-dev-test-2.png "filtered list")
 
 ![](js-dev-test-3.png)
 
@@ -107,9 +107,9 @@ Thoughts
 - It took a few days to complete - coding functionality took 20% and researching various typescript and eslint errors 80% 
 - Updated a lot of packages 
 - Used npm and deleted yarn.lock files
-- This caused issue as typescript verison conflicted with one of new @types packages which had been offered as a patch although it broke backward compatibility - finding the root cause took some searching
+- This caused an issue as the typescript verison conflicts with one of the @types subpackages which is offered as a patch (although it broke backward compatibility) - finding the root cause took some searching 
 - Refactored code to make it easier to test i.e. passing result of api call as props to Posts component
-- Used react-markdown to render markdown into the html
+- Used react-markdown to render 'post.body' into the html
 - Have to mock react-markdown because it has been updated and no longer supports commonjs
 - Didn't really style the app - could limit the markdown content width - code is commented out in app.css
 - Have it where all toggles are closed when clicking buttons
@@ -143,16 +143,16 @@ Useful Resources
 - [Github](https://github.com/mKleinCreative/js-dev-test/blob/master/web/src/App.test.tsx) - snapshot tests from similar type project
 - [Github](https://github.com/remarkjs/react-markdown/issues/635) - react markdown & esm vs commonjs
 - [NPM](https://www.npmjs.com/package/jest-mock-fetch) - jest mock fetch package
-- [Stack Overflow](https://stackoverflow.com/questions/44399181/react-jest-how-to-test-changing-state-and-checking-for-another-component)
-- [Blog](https://medium.com/fernandodof/how-to-mock-fetch-calls-with-jest-a666ae1e7752)
+- [Stack Overflow](https://stackoverflow.com/questions/44399181/react-jest-how-to-test-changing-state-and-checking-for-another-component) -  test changing state 
+- [Blog](https://medium.com/fernandodof/how-to-mock-fetch-calls-with-jest-a666ae1e7752) - mock fetch calls with jest
 - [Blog](https://zaklaughton.dev/blog/the-only-3-steps-you-need-to-mock-an-api-call-in-jest) - mock axios
-- [Stack Overflow](https://stackoverflow.com/questions/59147444/trigger-useeffect-in-jest-and-enzyme-testing)
+- [Stack Overflow](https://stackoverflow.com/questions/59147444/trigger-useeffect-in-jest-and-enzyme-testing) - trigger useEffect in jest testing
 - [Blog](https://www.taniarascia.com/how-to-test-useeffect-api-call/) - useeffect api call
 - [NPM](https://www.npmjs.com/package/fetch-mock) - fetch mock
 - [Blog](https://daveceddia.com/snapshot-testing-apis-with-jest/) - snapshot testing apis with jest
 - [React Docs](https://reactjs.org/docs/testing-recipes.html#snapshot-testing) - snapshot testing
-- [Stack Overflow](https://stackoverflow.com/questions/55388587/how-should-i-test-react-hook-useeffect-making-an-api-call-with-typescript)
-- [Stack Overflow](https://stackoverflow.com/questions/69145023/how-to-test-component-with-setstate-hook-inside-async-api-call-in-useeffectfunc)
+- [Stack Overflow](https://stackoverflow.com/questions/55388587/how-should-i-test-react-hook-useeffect-making-an-api-call-with-typescript) - how to test react hook useEffect with typescript
+- [Stack Overflow](https://stackoverflow.com/questions/69145023/how-to-test-component-with-setstate-hook-inside-async-api-call-in-useeffectfunc) - how to test component with setState hook inside
 - [YouTube](https://www.youtube.com/watch?v=jwCvZpl1po8) - Testing API Contracts with Snapshots
 - [Github](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/43848) - react 18 and typescript createRoot fix - either adding types for react-dom or use different createRoot import
 - [Github](https://github.com/typescript-eslint/typescript-eslint/issues/1654) - typescript eslint naming convention
